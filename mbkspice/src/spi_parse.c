@@ -1974,11 +1974,11 @@ char		mode;
       ptnodename = getptype( scanlocon->USER, PNODENAME );
      
       if( ptnoeud->NOM )
-        ((chain_list*)(ptnodename->DATA)) =
-       addchain( ((chain_list*)(ptnodename->DATA)), namealloc( ptnoeud->NOM ) );
+        ptnodename->DATA = (void *)
+          addchain( ((chain_list*)(ptnodename->DATA)), namealloc( ptnoeud->NOM ) );
       else
-        ((chain_list*)(ptnodename->DATA)) =
-                            addchain( ((chain_list*)(ptnodename->DATA)), NULL );
+        ptnodename->DATA = (void *)
+          addchain( ((chain_list*)(ptnodename->DATA)), NULL );
     }
   }
 
@@ -1991,15 +1991,14 @@ char		mode;
 
   for( scanlocon = ptfig->LOCON ; scanlocon ; scanlocon = scanlocon->NEXT )
   {
-    (chain_list*)scanlocon->PNODE = reverse( (chain_list*)scanlocon->PNODE );
+    scanlocon->PNODE = (struct num *) reverse( (chain_list*)scanlocon->PNODE );
   
     ptnodename = getptype( scanlocon->USER, PNODENAME );
     for( sc1 = (chain_list*)( ptnodename->DATA ) ; sc1 ; sc1 = sc1->NEXT )
       if( sc1->DATA )
         break;
     if( sc1 )
-      ((chain_list*)(ptnodename->DATA)) =
-                                   reverse( ((chain_list*)(ptnodename->DATA)) );
+      ptnodename->DATA = (void *) reverse( ((chain_list*)(ptnodename->DATA)) );
     else
     {
       freechain( (chain_list*)ptnodename->DATA );
@@ -2007,7 +2006,7 @@ char		mode;
     }
   }
 
-  (chain_list*)ptfig->LOCON = reverse( (chain_list*)ptfig->LOCON );
+  ptfig->LOCON = (struct locon *) reverse( (chain_list*)ptfig->LOCON );
 
   /* On cree les transistors */
 
@@ -2194,10 +2193,10 @@ char		mode;
 
         sc3 = (chain_list*)sc2->DATA; 
         for( ; sc3 ; sc3 = sc3->NEXT )
-          ((chain_list*)(ptnodename->DATA)) = addchain(
-                                              ((chain_list*)(ptnodename->DATA)),
-                                                        sc3->DATA
-                                                      );
+          ptnodename->DATA = (void *) addchain(
+                                          ((chain_list*)(ptnodename->DATA)),
+                                          sc3->DATA
+                                          );
 
       }
     }
