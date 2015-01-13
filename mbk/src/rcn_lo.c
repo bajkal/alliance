@@ -1495,11 +1495,11 @@ loctc_list* heaploctc()
     ptctc=HEAD_CTC_FREE;
     for(i=1;i<RCNBUFSIZE;i++)
     {
-      (loctc_list*)(ptctc->SIG1) = ptctc+1;
+      ptctc->SIG1 = (struct losig *) (ptctc+1);
       ptctc->NODE1 = -1000;
       ptctc++;
     }
-    (loctc_list*)(ptctc->SIG1) = NULL;
+    ptctc->SIG1 = (struct losig *) NULL;
     ptctc->NODE1 = -1000;
   }
 
@@ -1811,8 +1811,7 @@ losig_list	*ptsig;
       if( RCN_GETFLAG( ptnode->FLAG, RCN_FLAG_LOCON ) )
       {
         ptlocon = getptype(ptnode->USER, RCN_LOCON );
-        (chain_list*)(ptlocon->DATA)=
-                                 addchain((chain_list*)(ptlocon->DATA),ptcon);
+        ptlocon->DATA = (void *) addchain((chain_list*)(ptlocon->DATA),ptcon);
       }
       else
       {
