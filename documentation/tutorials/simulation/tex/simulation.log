@@ -1,0 +1,307 @@
+This is TeX, Version 3.14159 (Web2C 7.3.1) (format=latex 2002.4.12)  9 SEP 2004 21:13
+**simulation.tex
+(simulation.tex
+LaTeX2e <2000/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, i
+talian, nohyphenation, loaded.
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2000/05/19 v1.4b Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size12.clo
+File: size12.clo 2000/05/19 v1.4b Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 1999/02/16 v1.0l Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg)
+Package graphics Info: Driver file: dvips.def on input line 80.
+
+(/usr/share/texmf/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/usr/share/texmf/tex/generic/babel/babel.sty
+Package: babel 2001/03/01 v3.7h The Babel package
+
+(/usr/share/texmf/tex/generic/babel/english.ldf
+Language: english 2001/02/07 v3.3k English support from the babel system
+
+(/usr/share/texmf/tex/generic/babel/babel.def
+File: babel.def 2001/03/01 v3.7h Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\l@canadian = a dialect from \language\l@english 
+))
+(/usr/share/texmf/tex/latex/misc/doublespace.sty)
+(/usr/share/texmf/tex/plain/dvips/epsf.tex
+This is `epsf.tex' v2.7k <10 July 1997>
+\epsffilein=\read1
+\epsfframemargin=\dimen104
+\epsfframethickness=\dimen105
+\epsfrsize=\dimen106
+\epsftmp=\dimen107
+\epsftsize=\dimen108
+\epsfxsize=\dimen109
+\epsfysize=\dimen110
+\pspoints=\dimen111
+\epsfnoopenhelp=\toks14
+) (/usr/share/texmf/tex/latex/misc/fancybox.sty
+\c@tocdepth=\count88
+
+Style option: `fancybox' v1.2 <1998/02/27> (tvz)
+\@fancybox=\box26
+\shadowsize=\dimen112
+\@Sbox=\box27
+\do@VerbBox=\toks15
+\the@fancyput=\toks16
+\this@fancyput=\toks17
+\EndVerbatimTokens=\toks18
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read2
+) (/usr/share/texmf/tex/latex/fancyheadings/fancyheadings.sty
+\headrulewidth=\dimen113
+\footrulewidth=\dimen114
+\plainheadrulewidth=\dimen115
+\plainfootrulewidth=\dimen116
+\headwidth=\dimen117
+\footruleskip=\dimen118
+)
+(/usr/share/texmf/tex/latex/misc/float.sty
+Package: float 1999/05/29 v1.2d Float enhancements (AL)
+\c@float@type=\count89
+\float@box=\box28
+\@floatcapt=\box29
+)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+\Gin@req@height=\dimen119
+\Gin@req@width=\dimen120
+)
+(/usr/share/texmf/tex/latex/misc/here.sty)
+(/usr/share/texmf/tex/latex/misc/isolatin1.sty
+ISO-latin-1 input coding, version 0.9 of 1-Jun-1992.)
+(/usr/share/texmf/tex/latex/psnfss/palatino.sty
+Package: palatino 2000/01/12 PSNFSS-v8.1 Palatino font as default roman (SPQR) 
+
+)
+(/usr/share/texmf/tex/latex/misc/picinpar.sty
+Pictures in Paragraphs. Version 1.2a, July 13, 1993
+\br=\count90
+\bl=\count91
+\na=\count92
+\nb=\count93
+\tcdsav=\count94
+\tcl=\count95
+\tcd=\count96
+\tcn=\count97
+\cumtcl=\count98
+\cumpartcl=\count99
+\lftside=\dimen121
+\rtside=\dimen122
+\hpic=\dimen123
+\vpic=\dimen124
+\strutilg=\dimen125
+\picwd=\dimen126
+\topheight=\dimen127
+\ilg=\dimen128
+\lpic=\dimen129
+\lwindowsep=\dimen130
+\rwindowsep=\dimen131
+\cumpar=\dimen132
+\twa=\toks20
+\la=\toks21
+\ra=\toks22
+\ha=\toks23
+\pictoc=\toks24
+\rawtext=\box30
+\holder=\box31
+\windowbox=\box32
+\wartext=\box33
+\finaltext=\box34
+\aslice=\box35
+\bslice=\box36
+\wbox=\box37
+\wstrutbox=\box38
+\picbox=\box39
+\waslice=\box40
+\wbslice=\box41
+\fslice=\box42
+) (/usr/share/texmf/tex/generic/misc/psfig.sty
+\@unused=\write4
+\ps@stream=\read3
+\p@intvaluex=\dimen133
+\p@intvaluey=\dimen134
+
+psfig/tex 1.10-dvips
+) (/usr/share/texmf/tex/plain/dvips/rotate.tex
+\rotdimen=\dimen135
+)
+(/usr/share/texmf/tex/latex/misc/subfigure.sty
+Package: subfigure 1995/03/06 v2.0 subfigure package
+
+Package: subfigure 1995/03/06 v2.0
+\c@subfigure=\count100
+\c@lofdepth=\count101
+\c@subtable=\count102
+\c@lotdepth=\count103
+) (/usr/share/texmf/tex/latex/mdwtools/sverb.sty
+Package: sverb 1996/05/08 1.3 Verbatim typesetting
+\svtab=\dimen136
+\listingindent=\dimen137
+\sv@writefile=\write5
+\sv@nestcount=\count104
+)
+(/usr/share/texmf/tex/latex/base/t1enc.sty
+Package: t1enc 1994/06/01 Standard LaTeX package
+)
+(/usr/share/texmf/tex/latex/misc/wrapfig.sty
+\wrapoverhang=\dimen138
+\WF@size=\dimen139
+\c@WF@wrappedlines=\count105
+\WF@box=\box43
+\WF@everypar=\toks25
+Package: wrapfig 1999/03/11  v 3.2
+)
+\verbatimbox=\skip43
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 43.
+
+(/usr/share/texmf/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2000/01/12 PSNFSS-v8.1 font definitions for T1/ppl.
+)
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 43.
+
+(/usr/share/texmf/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2000/01/12 PSNFSS-v8.1 font definitions for T1/pcr.
+)
+No file simulation.aux.
+\openout1 = `simulation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 94.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 94.
+File: cpt3.epsi Graphic file (type eps)
+<cpt3.epsi> [1
+
+]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 110.
+
+Overfull \hbox (1.82053pt too wide) in paragraph at lines 114--115
+[]\T1/ppl/m/n/14.4 The tu-to-rial is com-posed of 3 main parts in-de-pen-dent f
+rom each other: 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 117.
+
+(/usr/share/texmf/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 117.
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 131--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
+
+ []
+
+[3]
+Overfull \hbox (0.71123pt too wide) in paragraph at lines 170--171
+[]\T1/ppl/b/n/14.4 addaccu_beh \T1/ppl/m/n/14.4 = the be-hav-ioral de-scrip-tio
+n (Reg-is-ter Trans-fert Level) 
+ []
+
+
+Overfull \hbox (1.43242pt too wide) in paragraph at lines 173--174
+[]\T1/ppl/m/n/14.4 Makefile to val-i-date au-to-mat-i-cally the en-tire be-hav-
+ioral de-scrip-
+ []
+
+[4]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 210.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 226.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 226.
+ [5]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 229.
+File: addac.eps Graphic file (type eps)
+ <addac.eps>
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 278.
+ [6]
+Underfull \hbox (badness 10000) in paragraph at lines 282--286
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--292
+
+ []
+
+
+Overfull \hbox (23.578pt too wide) in paragraph at lines 294--295
+[]\T1/ppl/m/n/14.4 Then you must val-i-date your de-scrip-tion while com-pil-in
+g with \T1/ppl/b/n/14.4 ASIMUT\T1/ppl/m/n/14.4 . 
+ []
+
+[7] [8] [9] [10] [11] [12] [13]
+Overfull \hbox (35.01294pt too wide) in paragraph at lines 572--578
+\T1/ppl/m/n/14.4 nents which are listed. You have to set the en-vi-ron-ment var
+i-able MBK_IN_LO: 
+ []
+
+[14] [15] [16] (simulation.aux) )
+(\end occurred inside a group at level 1) 
+Here is how much of TeX's memory you used:
+ 1857 strings out of 20887
+ 21026 string characters out of 196274
+ 77150 words of memory out of 350001
+ 4792 multiletter control sequences out of 10000+15000
+ 18205 words of font info for 39 fonts, out of 400000 for 1000
+ 14 hyphenation exceptions out of 10000
+ 24i,11n,21p,206b,405s stack positions out of 3000i,100n,1500p,50000b,4000s
+
+Output written on simulation.dvi (16 pages, 27900 bytes).

@@ -1,0 +1,833 @@
+m4trace:aclocal.m4:50: -1- m4_pattern_allow([^AM_[A-Z]+FLAGS$])
+m4trace:configure.in:2: -1- m4_pattern_forbid([^_?A[CHUM]_])
+m4trace:configure.in:2: -1- m4_pattern_forbid([_AC_])
+m4trace:configure.in:2: -1- m4_pattern_forbid([^LIBOBJS$], [do not use LIBOBJS directly, use AC_LIBOBJ (see section `AC_LIBOBJ vs. LIBOBJS'])
+m4trace:configure.in:2: -1- m4_pattern_allow([^AS_FLAGS$])
+m4trace:configure.in:2: -1- m4_pattern_forbid([^_?m4_])
+m4trace:configure.in:2: -1- m4_pattern_forbid([^dnl$])
+m4trace:configure.in:2: -1- m4_pattern_forbid([^_?AS_])
+m4trace:configure.in:2: -1- AC_SUBST([SHELL], [${CONFIG_SHELL-/bin/sh}])
+m4trace:configure.in:2: -1- AC_SUBST([PATH_SEPARATOR])
+m4trace:configure.in:2: -1- AC_SUBST([PACKAGE_NAME], [m4_ifdef([AC_PACKAGE_NAME],      ['AC_PACKAGE_NAME'])])
+m4trace:configure.in:2: -1- AC_SUBST([PACKAGE_TARNAME], [m4_ifdef([AC_PACKAGE_TARNAME],   ['AC_PACKAGE_TARNAME'])])
+m4trace:configure.in:2: -1- AC_SUBST([PACKAGE_VERSION], [m4_ifdef([AC_PACKAGE_VERSION],   ['AC_PACKAGE_VERSION'])])
+m4trace:configure.in:2: -1- AC_SUBST([PACKAGE_STRING], [m4_ifdef([AC_PACKAGE_STRING],    ['AC_PACKAGE_STRING'])])
+m4trace:configure.in:2: -1- AC_SUBST([PACKAGE_BUGREPORT], [m4_ifdef([AC_PACKAGE_BUGREPORT], ['AC_PACKAGE_BUGREPORT'])])
+m4trace:configure.in:2: -1- AC_SUBST([exec_prefix], [NONE])
+m4trace:configure.in:2: -1- AC_SUBST([prefix], [NONE])
+m4trace:configure.in:2: -1- AC_SUBST([program_transform_name], [s,x,x,])
+m4trace:configure.in:2: -1- AC_SUBST([bindir], ['${exec_prefix}/bin'])
+m4trace:configure.in:2: -1- AC_SUBST([sbindir], ['${exec_prefix}/sbin'])
+m4trace:configure.in:2: -1- AC_SUBST([libexecdir], ['${exec_prefix}/libexec'])
+m4trace:configure.in:2: -1- AC_SUBST([datadir], ['${prefix}/share'])
+m4trace:configure.in:2: -1- AC_SUBST([sysconfdir], ['${prefix}/etc'])
+m4trace:configure.in:2: -1- AC_SUBST([sharedstatedir], ['${prefix}/com'])
+m4trace:configure.in:2: -1- AC_SUBST([localstatedir], ['${prefix}/var'])
+m4trace:configure.in:2: -1- AC_SUBST([libdir], ['${exec_prefix}/lib'])
+m4trace:configure.in:2: -1- AC_SUBST([includedir], ['${prefix}/include'])
+m4trace:configure.in:2: -1- AC_SUBST([oldincludedir], ['/usr/include'])
+m4trace:configure.in:2: -1- AC_SUBST([infodir], ['${prefix}/info'])
+m4trace:configure.in:2: -1- AC_SUBST([mandir], ['${prefix}/man'])
+m4trace:configure.in:2: -1- AC_DEFINE_TRACE_LITERAL([PACKAGE_NAME])
+m4trace:configure.in:2: -1- AH_OUTPUT([PACKAGE_NAME], [/* Define to the full name of this package. */
+#undef PACKAGE_NAME])
+m4trace:configure.in:2: -1- AC_DEFINE_TRACE_LITERAL([PACKAGE_TARNAME])
+m4trace:configure.in:2: -1- AH_OUTPUT([PACKAGE_TARNAME], [/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME])
+m4trace:configure.in:2: -1- AC_DEFINE_TRACE_LITERAL([PACKAGE_VERSION])
+m4trace:configure.in:2: -1- AH_OUTPUT([PACKAGE_VERSION], [/* Define to the version of this package. */
+#undef PACKAGE_VERSION])
+m4trace:configure.in:2: -1- AC_DEFINE_TRACE_LITERAL([PACKAGE_STRING])
+m4trace:configure.in:2: -1- AH_OUTPUT([PACKAGE_STRING], [/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING])
+m4trace:configure.in:2: -1- AC_DEFINE_TRACE_LITERAL([PACKAGE_BUGREPORT])
+m4trace:configure.in:2: -1- AH_OUTPUT([PACKAGE_BUGREPORT], [/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT])
+m4trace:configure.in:2: -1- AC_SUBST([build_alias])
+m4trace:configure.in:2: -1- AC_SUBST([host_alias])
+m4trace:configure.in:2: -1- AC_SUBST([target_alias])
+m4trace:configure.in:2: -1- AC_SUBST([DEFS])
+m4trace:configure.in:2: -1- AC_SUBST([ECHO_C])
+m4trace:configure.in:2: -1- AC_SUBST([ECHO_N])
+m4trace:configure.in:2: -1- AC_SUBST([ECHO_T])
+m4trace:configure.in:2: -1- AC_SUBST([LIBS])
+m4trace:configure.in:3: -1- AC_PROG_INSTALL
+m4trace:configure.in:3: -1- AC_SUBST([INSTALL_PROGRAM])
+m4trace:configure.in:3: -1- AC_SUBST([INSTALL_SCRIPT])
+m4trace:configure.in:3: -1- AC_SUBST([INSTALL_DATA])
+m4trace:configure.in:3: -1- AC_SUBST([PACKAGE], [alliance])
+m4trace:configure.in:3: -1- AC_SUBST([VERSION], [5.0])
+m4trace:configure.in:3: -1- AC_DEFINE_TRACE_LITERAL([PACKAGE])
+m4trace:configure.in:3: -1- AH_OUTPUT([PACKAGE], [/* Name of package */
+#undef PACKAGE])
+m4trace:configure.in:3: -1- AC_DEFINE_TRACE_LITERAL([VERSION])
+m4trace:configure.in:3: -1- AH_OUTPUT([VERSION], [/* Version number of package */
+#undef VERSION])
+m4trace:configure.in:3: -1- AC_SUBST([ACLOCAL])
+m4trace:configure.in:3: -1- AC_SUBST([AUTOCONF])
+m4trace:configure.in:3: -1- AC_SUBST([AUTOMAKE])
+m4trace:configure.in:3: -1- AC_SUBST([AUTOHEADER])
+m4trace:configure.in:3: -1- AC_SUBST([MAKEINFO])
+m4trace:configure.in:3: -1- AC_SUBST([AMTAR])
+m4trace:configure.in:3: -1- AC_SUBST([install_sh])
+m4trace:configure.in:3: -1- AC_SUBST([STRIP])
+m4trace:configure.in:3: -1- AC_SUBST([ac_ct_STRIP])
+m4trace:configure.in:3: -1- AC_SUBST([INSTALL_STRIP_PROGRAM])
+m4trace:configure.in:3: -1- AC_PROG_AWK
+m4trace:configure.in:3: -1- AC_SUBST([AWK])
+m4trace:configure.in:3: -1- AC_PROG_MAKE_SET
+m4trace:configure.in:3: -1- AC_SUBST([SET_MAKE])
+m4trace:configure.in:5: -1- AC_PROG_LEX
+m4trace:configure.in:5: -1- AC_SUBST([LEX])
+m4trace:configure.in:5: -1- AC_CHECK_LIB([fl], [yywrap], [LEXLIB="-lfl"], [AC_CHECK_LIB(l, yywrap, LEXLIB="-ll")])
+m4trace:configure.in:5: -1- AC_PROG_CC
+m4trace:configure.in:5: -1- AC_SUBST([CC])
+m4trace:configure.in:5: -1- AC_SUBST([CFLAGS])
+m4trace:configure.in:5: -1- AC_SUBST([LDFLAGS])
+m4trace:configure.in:5: -1- AC_SUBST([CPPFLAGS])
+m4trace:configure.in:5: -1- AC_SUBST([CC])
+m4trace:configure.in:5: -1- AC_SUBST([ac_ct_CC])
+m4trace:configure.in:5: -1- AC_SUBST([CC])
+m4trace:configure.in:5: -1- AC_SUBST([ac_ct_CC])
+m4trace:configure.in:5: -1- AC_SUBST([CC])
+m4trace:configure.in:5: -1- AC_SUBST([CC])
+m4trace:configure.in:5: -1- AC_SUBST([ac_ct_CC])
+m4trace:configure.in:5: -1- AC_SUBST([EXEEXT], [$ac_cv_exeext])
+m4trace:configure.in:5: -1- AC_SUBST([OBJEXT], [$ac_cv_objext])
+m4trace:configure.in:5: -1- AC_SUBST([DEPDIR])
+m4trace:configure.in:5: -1- AC_SUBST([am__include])
+m4trace:configure.in:5: -1- AC_SUBST([am__quote])
+m4trace:configure.in:5: -1- AM_CONDITIONAL([AMDEP], [test "x$enable_dependency_tracking" != xno])
+m4trace:configure.in:5: -1- AC_SUBST([AMDEP_TRUE])
+m4trace:configure.in:5: -1- AC_SUBST([AMDEP_FALSE])
+m4trace:configure.in:5: -1- AC_SUBST([AMDEPBACKSLASH])
+m4trace:configure.in:5: -1- AC_SUBST([CCDEPMODE], [depmode=$am_cv_CC_dependencies_compiler_type])
+m4trace:configure.in:5: -1- AC_CHECK_LIB([l], [yywrap], [LEXLIB="-ll"])
+m4trace:configure.in:5: -1- AC_SUBST([LEXLIB])
+m4trace:configure.in:5: -1- AC_SUBST([LEX_OUTPUT_ROOT], [$ac_cv_prog_lex_root])
+m4trace:configure.in:5: -1- AC_DEFINE_TRACE_LITERAL([YYTEXT_POINTER])
+m4trace:configure.in:5: -1- AH_OUTPUT([YYTEXT_POINTER], [/* Define to 1 if \`lex' declares \`yytext' as a \`char *' by default, not a
+   \`char[]'. */
+#undef YYTEXT_POINTER])
+m4trace:configure.in:6: -1- AM_PROG_LIBTOOL
+m4trace:configure.in:6: -1- AC_PROG_LIBTOOL
+m4trace:configure.in:6: -1- AC_SUBST([build], [$ac_cv_build])
+m4trace:configure.in:6: -1- AC_SUBST([build_cpu], [`echo $ac_cv_build | sed 's/^\([[^-]]*\)-\([[^-]]*\)-\(.*\)$/\1/'`])
+m4trace:configure.in:6: -1- AC_SUBST([build_vendor], [`echo $ac_cv_build | sed 's/^\([[^-]]*\)-\([[^-]]*\)-\(.*\)$/\2/'`])
+m4trace:configure.in:6: -1- AC_SUBST([build_os], [`echo $ac_cv_build | sed 's/^\([[^-]]*\)-\([[^-]]*\)-\(.*\)$/\3/'`])
+m4trace:configure.in:6: -1- AC_SUBST([host], [$ac_cv_host])
+m4trace:configure.in:6: -1- AC_SUBST([host_cpu], [`echo $ac_cv_host | sed 's/^\([[^-]]*\)-\([[^-]]*\)-\(.*\)$/\1/'`])
+m4trace:configure.in:6: -1- AC_SUBST([host_vendor], [`echo $ac_cv_host | sed 's/^\([[^-]]*\)-\([[^-]]*\)-\(.*\)$/\2/'`])
+m4trace:configure.in:6: -1- AC_SUBST([host_os], [`echo $ac_cv_host | sed 's/^\([[^-]]*\)-\([[^-]]*\)-\(.*\)$/\3/'`])
+m4trace:configure.in:6: -1- AC_PROG_LN_S
+m4trace:configure.in:6: -1- AC_SUBST([LN_S], [$as_ln_s])
+m4trace:configure.in:6: -1- AC_SUBST([ECHO])
+m4trace:configure.in:6: -1- AC_SUBST([RANLIB])
+m4trace:configure.in:6: -1- AC_SUBST([ac_ct_RANLIB])
+m4trace:configure.in:6: -1- AC_SUBST([STRIP])
+m4trace:configure.in:6: -1- AC_SUBST([ac_ct_STRIP])
+m4trace:configure.in:6: -1- AC_CHECK_LIB([dld], [shl_load], [lt_cv_dlopen="shl_load" lt_cv_dlopen_libs="-dld"], [AC_CHECK_FUNC([dlopen],
+	      [lt_cv_dlopen="dlopen"],
+	  [AC_CHECK_LIB([dl], [dlopen],
+	        [lt_cv_dlopen="dlopen" lt_cv_dlopen_libs="-ldl"],
+	    [AC_CHECK_LIB([svld], [dlopen],
+	          [lt_cv_dlopen="dlopen" lt_cv_dlopen_libs="-lsvld"],
+	      [AC_CHECK_LIB([dld], [dld_link],
+	            [lt_cv_dlopen="dld_link" lt_cv_dlopen_libs="-dld"])
+	      ])
+	    ])
+	  ])
+	])
+m4trace:configure.in:6: -1- AC_CHECK_LIB([dl], [dlopen], [lt_cv_dlopen="dlopen" lt_cv_dlopen_libs="-ldl"], [AC_CHECK_LIB([svld], [dlopen],
+	          [lt_cv_dlopen="dlopen" lt_cv_dlopen_libs="-lsvld"],
+	      [AC_CHECK_LIB([dld], [dld_link],
+	            [lt_cv_dlopen="dld_link" lt_cv_dlopen_libs="-dld"])
+	      ])
+	    ])
+m4trace:configure.in:6: -1- AC_CHECK_LIB([svld], [dlopen], [lt_cv_dlopen="dlopen" lt_cv_dlopen_libs="-lsvld"], [AC_CHECK_LIB([dld], [dld_link],
+	            [lt_cv_dlopen="dld_link" lt_cv_dlopen_libs="-dld"])
+	      ])
+m4trace:configure.in:6: -1- AC_CHECK_LIB([dld], [dld_link], [lt_cv_dlopen="dld_link" lt_cv_dlopen_libs="-dld"])
+m4trace:configure.in:6: -1- AC_CHECK_HEADERS([dlfcn.h])
+m4trace:configure.in:6: -1- AH_OUTPUT([HAVE_DLFCN_H], [/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H])
+m4trace:configure.in:6: -1- AC_HEADER_STDC
+m4trace:configure.in:6: -1- AC_PROG_CPP
+m4trace:configure.in:6: -1- AC_SUBST([CPP])
+m4trace:configure.in:6: -1- AC_SUBST([CPPFLAGS])
+m4trace:configure.in:6: -1- AC_SUBST([CPP])
+m4trace:configure.in:6: -1- AC_DEFINE_TRACE_LITERAL([STDC_HEADERS])
+m4trace:configure.in:6: -1- AH_OUTPUT([STDC_HEADERS], [/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS])
+m4trace:configure.in:6: -1- AC_CHECK_HEADERS([sys/types.h sys/stat.h stdlib.h string.h memory.h strings.h \
+                  inttypes.h stdint.h unistd.h], [], [], [$ac_includes_default])
+m4trace:configure.in:6: -1- AH_OUTPUT([HAVE_SYS_TYPES_H], [/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H])
+m4trace:configure.in:6: -1- AH_OUTPUT([HAVE_SYS_STAT_H], [/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H])
+m4trace:configure.in:6: -1- AH_OUTPUT([HAVE_STDLIB_H], [/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H])
+m4trace:configure.in:6: -1- AH_OUTPUT([HAVE_STRING_H], [/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H])
+m4trace:configure.in:6: -1- AH_OUTPUT([HAVE_MEMORY_H], [/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H])
+m4trace:configure.in:6: -1- AH_OUTPUT([HAVE_STRINGS_H], [/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H])
+m4trace:configure.in:6: -1- AH_OUTPUT([HAVE_INTTYPES_H], [/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H])
+m4trace:configure.in:6: -1- AH_OUTPUT([HAVE_STDINT_H], [/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H])
+m4trace:configure.in:6: -1- AH_OUTPUT([HAVE_UNISTD_H], [/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H])
+m4trace:configure.in:6: -1- AC_SUBST([LIBTOOL])
+m4trace:configure.in:7: -1- AC_CHECK_HEADERS([fcntl.h malloc.h strings.h sys/time.h unistd.h])
+m4trace:configure.in:7: -1- AH_OUTPUT([HAVE_FCNTL_H], [/* Define to 1 if you have the <fcntl.h> header file. */
+#undef HAVE_FCNTL_H])
+m4trace:configure.in:7: -1- AH_OUTPUT([HAVE_MALLOC_H], [/* Define to 1 if you have the <malloc.h> header file. */
+#undef HAVE_MALLOC_H])
+m4trace:configure.in:7: -1- AH_OUTPUT([HAVE_STRINGS_H], [/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H])
+m4trace:configure.in:7: -1- AH_OUTPUT([HAVE_SYS_TIME_H], [/* Define to 1 if you have the <sys/time.h> header file. */
+#undef HAVE_SYS_TIME_H])
+m4trace:configure.in:7: -1- AH_OUTPUT([HAVE_UNISTD_H], [/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H])
+m4trace:configure.in:8: -1- AC_CHECK_HEADERS([strings.h unistd.h])
+m4trace:configure.in:8: -1- AH_OUTPUT([HAVE_STRINGS_H], [/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H])
+m4trace:configure.in:8: -1- AH_OUTPUT([HAVE_UNISTD_H], [/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H])
+m4trace:configure.in:9: -1- AC_CHECK_LIB([gen], [basename])
+m4trace:configure.in:9: -1- AH_OUTPUT([HAVE_LIBGEN], [/* Define to 1 if you have the \`gen' library (-lgen). */
+#undef HAVE_LIBGEN])
+m4trace:configure.in:9: -1- AC_DEFINE_TRACE_LITERAL([HAVE_LIBGEN])
+m4trace:configure.in:10: -1- AC_CHECK_LIB([iberty], [basename])
+m4trace:configure.in:10: -1- AH_OUTPUT([HAVE_LIBIBERTY], [/* Define to 1 if you have the \`iberty' library (-liberty). */
+#undef HAVE_LIBIBERTY])
+m4trace:configure.in:10: -1- AC_DEFINE_TRACE_LITERAL([HAVE_LIBIBERTY])
+m4trace:configure.in:11: -1- AC_CHECK_LIB([m], [exp])
+m4trace:configure.in:11: -1- AH_OUTPUT([HAVE_LIBM], [/* Define to 1 if you have the \`m' library (-lm). */
+#undef HAVE_LIBM])
+m4trace:configure.in:11: -1- AC_DEFINE_TRACE_LITERAL([HAVE_LIBM])
+m4trace:configure.in:12: -1- AC_CHECK_LIB([m], [floor])
+m4trace:configure.in:12: -1- AH_OUTPUT([HAVE_LIBM], [/* Define to 1 if you have the \`m' library (-lm). */
+#undef HAVE_LIBM])
+m4trace:configure.in:12: -1- AC_DEFINE_TRACE_LITERAL([HAVE_LIBM])
+m4trace:configure.in:13: -1- AC_CHECK_LIB([m], [pow])
+m4trace:configure.in:13: -1- AH_OUTPUT([HAVE_LIBM], [/* Define to 1 if you have the \`m' library (-lm). */
+#undef HAVE_LIBM])
+m4trace:configure.in:13: -1- AC_DEFINE_TRACE_LITERAL([HAVE_LIBM])
+m4trace:configure.in:14: -1- AC_CHECK_LIB([m], [sqrt])
+m4trace:configure.in:14: -1- AH_OUTPUT([HAVE_LIBM], [/* Define to 1 if you have the \`m' library (-lm). */
+#undef HAVE_LIBM])
+m4trace:configure.in:14: -1- AC_DEFINE_TRACE_LITERAL([HAVE_LIBM])
+m4trace:configure.in:15: -1- AC_SUBST([SED])
+m4trace:configure.in:16: -1- AC_SUBST([SED])
+m4trace:configure.in:17: -1- AC_C_CONST
+m4trace:configure.in:17: -1- AC_DEFINE_TRACE_LITERAL([const])
+m4trace:configure.in:17: -1- AH_OUTPUT([const], [/* Define to empty if \`const' does not conform to ANSI C. */
+#undef const])
+m4trace:configure.in:18: -1- AC_FUNC_FORK([])
+m4trace:configure.in:18: -1- AC_TYPE_PID_T
+m4trace:configure.in:18: -1- AC_DEFINE_TRACE_LITERAL([pid_t])
+m4trace:configure.in:18: -1- AH_OUTPUT([pid_t], [/* Define to \`int' if <sys/types.h> does not define. */
+#undef pid_t])
+m4trace:configure.in:18: -1- AC_CHECK_HEADERS([unistd.h vfork.h])
+m4trace:configure.in:18: -1- AH_OUTPUT([HAVE_UNISTD_H], [/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H])
+m4trace:configure.in:18: -1- AH_OUTPUT([HAVE_VFORK_H], [/* Define to 1 if you have the <vfork.h> header file. */
+#undef HAVE_VFORK_H])
+m4trace:configure.in:18: -1- AC_CHECK_FUNCS([fork vfork])
+m4trace:configure.in:18: -1- AH_OUTPUT([HAVE_FORK], [/* Define to 1 if you have the \`fork' function. */
+#undef HAVE_FORK])
+m4trace:configure.in:18: -1- AH_OUTPUT([HAVE_VFORK], [/* Define to 1 if you have the \`vfork' function. */
+#undef HAVE_VFORK])
+m4trace:configure.in:18: -1- AC_DEFINE_TRACE_LITERAL([HAVE_WORKING_VFORK])
+m4trace:configure.in:18: -1- AH_OUTPUT([HAVE_WORKING_VFORK], [/* Define to 1 if \`vfork' works. */
+#undef HAVE_WORKING_VFORK])
+m4trace:configure.in:18: -1- AC_DEFINE_TRACE_LITERAL([vfork])
+m4trace:configure.in:18: -1- AH_OUTPUT([vfork], [/* Define as \`fork' if \`vfork' does not work. */
+#undef vfork])
+m4trace:configure.in:18: -1- AC_DEFINE_TRACE_LITERAL([HAVE_WORKING_FORK])
+m4trace:configure.in:18: -1- AH_OUTPUT([HAVE_WORKING_FORK], [/* Define to 1 if \`fork' works. */
+#undef HAVE_WORKING_FORK])
+m4trace:configure.in:19: -1- AC_HEADER_STDC
+m4trace:configure.in:19: -1- AC_DEFINE_TRACE_LITERAL([STDC_HEADERS])
+m4trace:configure.in:19: -1- AH_OUTPUT([STDC_HEADERS], [/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS])
+m4trace:configure.in:20: -1- AC_HEADER_SYS_WAIT
+m4trace:configure.in:20: -1- AC_DEFINE_TRACE_LITERAL([HAVE_SYS_WAIT_H])
+m4trace:configure.in:20: -1- AH_OUTPUT([HAVE_SYS_WAIT_H], [/* Define to 1 if you have <sys/wait.h> that is POSIX.1 compatible. */
+#undef HAVE_SYS_WAIT_H])
+m4trace:configure.in:21: -1- AC_PATH_X
+m4trace:configure.in:21: -1- AC_DEFINE_TRACE_LITERAL([X_DISPLAY_MISSING])
+m4trace:configure.in:21: -1- AH_OUTPUT([X_DISPLAY_MISSING], [/* Define to 1 if the X Window System is missing or not being used. */
+#undef X_DISPLAY_MISSING])
+m4trace:configure.in:21: -1- AC_CHECK_LIB([dnet], [dnet_ntoa], [X_EXTRA_LIBS="$X_EXTRA_LIBS -ldnet"])
+m4trace:configure.in:21: -1- AC_CHECK_LIB([dnet_stub], [dnet_ntoa], [X_EXTRA_LIBS="$X_EXTRA_LIBS -ldnet_stub"])
+m4trace:configure.in:21: -1- AC_CHECK_LIB([nsl], [gethostbyname], [X_EXTRA_LIBS="$X_EXTRA_LIBS -lnsl"])
+m4trace:configure.in:21: -1- AC_CHECK_LIB([bsd], [gethostbyname], [X_EXTRA_LIBS="$X_EXTRA_LIBS -lbsd"])
+m4trace:configure.in:21: -1- AC_CHECK_LIB([socket], [connect], [X_EXTRA_LIBS="-lsocket $X_EXTRA_LIBS"], [], [$X_EXTRA_LIBS])
+m4trace:configure.in:21: -1- AC_CHECK_LIB([posix], [remove], [X_EXTRA_LIBS="$X_EXTRA_LIBS -lposix"])
+m4trace:configure.in:21: -1- AC_CHECK_LIB([ipc], [shmat], [X_EXTRA_LIBS="$X_EXTRA_LIBS -lipc"])
+m4trace:configure.in:21: -1- AC_CHECK_LIB([ICE], [IceConnectionNumber], [X_PRE_LIBS="$X_PRE_LIBS -lSM -lICE"], [], [$X_EXTRA_LIBS])
+m4trace:configure.in:21: -1- AC_SUBST([X_CFLAGS])
+m4trace:configure.in:21: -1- AC_SUBST([X_PRE_LIBS])
+m4trace:configure.in:21: -1- AC_SUBST([X_LIBS])
+m4trace:configure.in:21: -1- AC_SUBST([X_EXTRA_LIBS])
+m4trace:configure.in:22: -1- AC_PROG_CC
+m4trace:configure.in:22: -1- AC_SUBST([CC])
+m4trace:configure.in:22: -1- AC_SUBST([CFLAGS])
+m4trace:configure.in:22: -1- AC_SUBST([LDFLAGS])
+m4trace:configure.in:22: -1- AC_SUBST([CPPFLAGS])
+m4trace:configure.in:22: -1- AC_SUBST([CC])
+m4trace:configure.in:22: -1- AC_SUBST([ac_ct_CC])
+m4trace:configure.in:22: -1- AC_SUBST([CC])
+m4trace:configure.in:22: -1- AC_SUBST([ac_ct_CC])
+m4trace:configure.in:22: -1- AC_SUBST([CC])
+m4trace:configure.in:22: -1- AC_SUBST([CC])
+m4trace:configure.in:22: -1- AC_SUBST([ac_ct_CC])
+m4trace:configure.in:22: -1- AC_SUBST([CCDEPMODE], [depmode=$am_cv_CC_dependencies_compiler_type])
+m4trace:configure.in:23: -1- AC_PROG_CPP
+m4trace:configure.in:23: -1- AC_SUBST([CPP])
+m4trace:configure.in:23: -1- AC_SUBST([CPPFLAGS])
+m4trace:configure.in:23: -1- AC_SUBST([CPP])
+m4trace:configure.in:24: -1- AC_PROG_CXX
+m4trace:configure.in:24: -1- AC_SUBST([CXX])
+m4trace:configure.in:24: -1- AC_SUBST([CXXFLAGS])
+m4trace:configure.in:24: -1- AC_SUBST([LDFLAGS])
+m4trace:configure.in:24: -1- AC_SUBST([CPPFLAGS])
+m4trace:configure.in:24: -1- AC_SUBST([CXX])
+m4trace:configure.in:24: -1- AC_SUBST([ac_ct_CXX])
+m4trace:configure.in:24: -1- AC_SUBST([CXXDEPMODE], [depmode=$am_cv_CXX_dependencies_compiler_type])
+m4trace:configure.in:25: -1- AC_PROG_INSTALL
+m4trace:configure.in:25: -1- AC_SUBST([INSTALL_PROGRAM])
+m4trace:configure.in:25: -1- AC_SUBST([INSTALL_SCRIPT])
+m4trace:configure.in:25: -1- AC_SUBST([INSTALL_DATA])
+m4trace:configure.in:26: -1- AC_PROG_MAKE_SET
+m4trace:configure.in:26: -1- AC_SUBST([SET_MAKE])
+m4trace:configure.in:27: -1- AC_PROG_RANLIB
+m4trace:configure.in:27: -1- AC_SUBST([RANLIB])
+m4trace:configure.in:27: -1- AC_SUBST([ac_ct_RANLIB])
+m4trace:configure.in:28: -1- AC_PROG_YACC
+m4trace:configure.in:28: -1- AC_SUBST([YACC])
+m4trace:configure.in:29: -1- AC_TYPE_SIGNAL
+m4trace:configure.in:29: -1- AC_DEFINE_TRACE_LITERAL([RETSIGTYPE])
+m4trace:configure.in:29: -1- AH_OUTPUT([RETSIGTYPE], [/* Define as the return type of signal handlers (\`int' or \`void'). */
+#undef RETSIGTYPE])
+m4trace:configure.in:58: -1- AC_DEFINE_TRACE_LITERAL([HAVE_MOTIF])
+m4trace:configure.in:58: -1- AC_SUBST([LINK_MOTIF])
+m4trace:configure.in:58: -1- AC_SUBST([INCLUDE_MOTIF])
+m4trace:configure.in:59: -1- AC_DEFINE_TRACE_LITERAL([HAVE_XPM])
+m4trace:configure.in:59: -1- AC_SUBST([LINK_XPM])
+m4trace:configure.in:72: -1- AC_CHECK_LIB([X11], [XOpenDisplay], [X11_LIBS="-lX11"], [], [${X_PRE_LIBS} ${X_EXTRA_LIBS}])
+m4trace:configure.in:79: -1- AC_SUBST([X_LIBS])
+m4trace:configure.in:80: -1- AC_SUBST([X11_LIBS])
+m4trace:configure.in:81: -1- AC_SUBST([X_PRE_LIBS])
+m4trace:configure.in:90: -1- AC_CHECK_LIB([Xintl], [_Xlcmbcurmax], [X11_LIBS="${X11_LIBS} -lXintl"], [], [${X_PRE_LIBS} ${X11_LIBS} ${X_EXTRA_LIBS}])
+m4trace:configure.in:96: -1- AC_CHECK_LIB([ipc], [shmap], [X11_LIBS="${X11_LIBS} -lipc"], [], [${X_PRE_LIBS} ${X11_LIBS} ${X_EXTRA_LIBS}])
+m4trace:configure.in:103: -1- AC_CHECK_LIB([Xt], [XtToolkitInitialize], [XT_LIBS="-lXt"], [], [${X_PRE_LIBS} ${X11_LIBS} ${X_EXTRA_LIBS}])
+m4trace:configure.in:112: -1- AC_SUBST([XT_LIBS])
+m4trace:configure.in:120: -1- AC_CHECK_LIB([Xext], [XShapeQueryVersion], [XEXT_LIBS="-lXext"], [], [${X_PRE_LIBS} ${X11_LIBS} ${X_EXTRA_LIBS}])
+m4trace:configure.in:121: -1- AC_SUBST([XEXT_LIBS])
+m4trace:configure.in:132: -2- AC_DEFINE_TRACE_LITERAL([HAVE_XPM])
+m4trace:configure.in:132: -1- AC_CHECK_LIB([Xpm], [XpmCreatePixmapFromXpmImage], [XPM_LIBS="-lXpm"
+	cat >>confdefs.h <<\_ACEOF
+@%:@define HAVE_XPM 1
+_ACEOF
+], [], [${X_PRE_LIBS} ${X11_LIBS} ${X_EXTRA_LIBS}])
+m4trace:configure.in:134: -1- AC_CHECK_HEADERS([X11/xpm.h xpm.h])
+m4trace:configure.in:134: -1- AH_OUTPUT([HAVE_X11_XPM_H], [/* Define to 1 if you have the <X11/xpm.h> header file. */
+#undef HAVE_X11_XPM_H])
+m4trace:configure.in:134: -1- AH_OUTPUT([HAVE_XPM_H], [/* Define to 1 if you have the <xpm.h> header file. */
+#undef HAVE_XPM_H])
+m4trace:configure.in:137: -1- AC_SUBST([XPM_LIBS])
+m4trace:configure.in:149: -2- AC_DEFINE_TRACE_LITERAL([HAVE_XP])
+m4trace:configure.in:150: -1- AC_CHECK_LIB([Xp], [XpSelectInput], [XP_LIBS="-lXp"
+	cat >>confdefs.h <<\_ACEOF
+@%:@define HAVE_XP 1
+_ACEOF
+], [], [${XPM_LIBS} ${XEXT_LIBS} ${XT_LIBS} ${X_PRE_LIBS} ${X11_LIBS} ${X_EXTRA_LIBS}])
+m4trace:configure.in:154: -2- AC_DEFINE_TRACE_LITERAL([HAVE_MOTIF])
+m4trace:configure.in:155: -1- AC_CHECK_LIB([Xm], [XmCreateOptionMenu], [XM_LIBS="-lXm"
+	cat >>confdefs.h <<\_ACEOF
+@%:@define HAVE_MOTIF 1
+_ACEOF
+], [], [${XP_LIBS} ${XPM_LIBS} ${XEXT_LIBS} ${XT_LIBS} ${X_PRE_LIBS} ${X11_LIBS} ${X_EXTRA_LIBS}])
+m4trace:configure.in:158: -2- AC_DEFINE_TRACE_LITERAL([HAVE_XMUSEVERSION])
+m4trace:configure.in:159: -1- AC_CHECK_LIB([Xm], [xmUseVersion], [cat >>confdefs.h <<\_ACEOF
+@%:@define HAVE_XMUSEVERSION 1
+_ACEOF
+], [], [${XP_LIBS} ${XPM_LIBS} ${XEXT_LIBS} ${XT_LIBS} ${X_PRE_LIBS} ${X11_LIBS} ${X_EXTRA_LIBS}])
+m4trace:configure.in:162: -2- AC_DEFINE_TRACE_LITERAL([HAVE_XMINSTALLIMAGE])
+m4trace:configure.in:163: -1- AC_CHECK_LIB([Xm], [XmInstallImage], [cat >>confdefs.h <<\_ACEOF
+@%:@define HAVE_XMINSTALLIMAGE 1
+_ACEOF
+], [], [${XP_LIBS} ${XPM_LIBS} ${XEXT_LIBS} ${XT_LIBS} ${X_PRE_LIBS} ${X11_LIBS} ${X_EXTRA_LIBS}])
+m4trace:configure.in:166: -2- AC_DEFINE_TRACE_LITERAL([HAVE_XM21INSTALLIMAGE])
+m4trace:configure.in:167: -1- AC_CHECK_LIB([Xm], [Xm21InstallImage], [cat >>confdefs.h <<\_ACEOF
+@%:@define HAVE_XM21INSTALLIMAGE 1
+_ACEOF
+], [], [${XP_LIBS} ${XPM_LIBS} ${XEXT_LIBS} ${XT_LIBS} ${X_PRE_LIBS} ${X11_LIBS} ${X_EXTRA_LIBS}])
+m4trace:configure.in:178: -1- AC_SUBST([XP_LIBS])
+m4trace:configure.in:179: -1- AC_SUBST([XM_LIBS])
+m4trace:configure.in:190: -1- AC_SUBST([ALLIANCE_CFLAGS])
+m4trace:configure.in:190: -1- AC_SUBST([ALLIANCE_LIBS])
+m4trace:configure.in:190: -1- AC_SUBST([ALLIANCE_TOP])
+m4trace:configure.in:190: -1- AC_SUBST([INSTALL_DATA])
+m4trace:configure.in:190: -1- AC_SUBST([INSTALL_PROGRAM])
+m4trace:configure.in:190: -1- AC_DEFINE_TRACE_LITERAL([ALLIANCE_VERSION])
+m4trace:configure.in:190: -1- AC_DEFINE_TRACE_LITERAL([ALLIANCE_TOP])
+m4trace:configure.in:190: -1- AC_CHECK_LIB([gen], [basename])
+m4trace:configure.in:190: -1- AH_OUTPUT([HAVE_LIBGEN], [/* Define to 1 if you have the \`gen' library (-lgen). */
+#undef HAVE_LIBGEN])
+m4trace:configure.in:190: -1- AC_DEFINE_TRACE_LITERAL([HAVE_LIBGEN])
+m4trace:configure.in:190: -1- AC_CHECK_LIB([iberty], [basename])
+m4trace:configure.in:190: -1- AH_OUTPUT([HAVE_LIBIBERTY], [/* Define to 1 if you have the \`iberty' library (-liberty). */
+#undef HAVE_LIBIBERTY])
+m4trace:configure.in:190: -1- AC_DEFINE_TRACE_LITERAL([HAVE_LIBIBERTY])
+m4trace:configure.in:191: -1- AM_CONDITIONAL([ALLIANCE_BUILD], [(exit 0)])
+m4trace:configure.in:191: -1- AC_SUBST([ALLIANCE_BUILD_TRUE])
+m4trace:configure.in:191: -1- AC_SUBST([ALLIANCE_BUILD_FALSE])
+m4trace:configure.in:195: -1- AC_SUBST([MBK_CUR])
+m4trace:configure.in:197: -1- AC_SUBST([MBK_REV])
+m4trace:configure.in:199: -1- AC_SUBST([MBK_REL])
+m4trace:configure.in:201: -1- AC_SUBST([MBK_DLL_VERSION])
+m4trace:configure.in:203: -1- AC_SUBST([MBK_VERSION])
+m4trace:configure.in:207: -1- AC_SUBST([MAL_DLL_VERSION])
+m4trace:configure.in:211: -1- AC_SUBST([MAP_DLL_VERSION])
+m4trace:configure.in:215: -1- AC_SUBST([MEL_DLL_VERSION])
+m4trace:configure.in:219: -1- AC_SUBST([MHL_DLL_VERSION])
+m4trace:configure.in:223: -1- AC_SUBST([MMG_DLL_VERSION])
+m4trace:configure.in:227: -1- AC_SUBST([MSL_DLL_VERSION])
+m4trace:configure.in:231: -1- AC_SUBST([MVL_DLL_VERSION])
+m4trace:configure.in:235: -1- AC_SUBST([MGL_DLL_VERSION])
+m4trace:configure.in:239: -1- AC_SUBST([MCP_DLL_VERSION])
+m4trace:configure.in:241: -1- AC_SUBST([MCL_DLL_VERSION])
+m4trace:configure.in:245: -1- AC_SUBST([MVG_DLL_VERSION])
+m4trace:configure.in:249: -1- AC_SUBST([AUT_DLL_VERSION])
+m4trace:configure.in:253: -1- AC_SUBST([RDS_DLL_VERSION])
+m4trace:configure.in:255: -1- AC_SUBST([RUT_DLL_VERSION])
+m4trace:configure.in:257: -1- AC_SUBST([RFM_DLL_VERSION])
+m4trace:configure.in:259: -1- AC_SUBST([RPR_DLL_VERSION])
+m4trace:configure.in:261: -1- AC_SUBST([RWI_DLL_VERSION])
+m4trace:configure.in:263: -1- AC_SUBST([RTL_DLL_VERSION])
+m4trace:configure.in:267: -1- AC_SUBST([RCF_DLL_VERSION])
+m4trace:configure.in:271: -1- AC_SUBST([RGS_DLL_VERSION])
+m4trace:configure.in:275: -1- AC_SUBST([ELP_DLL_VERSION])
+m4trace:configure.in:279: -1- AC_SUBST([ABL_DLL_VERSION])
+m4trace:configure.in:283: -1- AC_SUBST([BDD_DLL_VERSION])
+m4trace:configure.in:287: -1- AC_SUBST([LOG_DLL_VERSION])
+m4trace:configure.in:291: -1- AC_SUBST([BTR_DLL_VERSION])
+m4trace:configure.in:295: -1- AC_SUBST([VEX_DLL_VERSION])
+m4trace:configure.in:299: -1- AC_SUBST([CTL_DLL_VERSION])
+m4trace:configure.in:303: -1- AC_SUBST([CTP_DLL_VERSION])
+m4trace:configure.in:307: -1- AC_SUBST([ABE_DLL_VERSION])
+m4trace:configure.in:311: -1- AC_SUBST([ABT_DLL_VERSION])
+m4trace:configure.in:315: -1- AC_SUBST([ABV_DLL_VERSION])
+m4trace:configure.in:319: -1- AC_SUBST([FSM_DLL_VERSION])
+m4trace:configure.in:323: -1- AC_SUBST([FKS_DLL_VERSION])
+m4trace:configure.in:327: -1- AC_SUBST([FVH_DLL_VERSION])
+m4trace:configure.in:331: -1- AC_SUBST([FTL_DLL_VERSION])
+m4trace:configure.in:335: -1- AC_SUBST([RTN_DLL_VERSION])
+m4trace:configure.in:339: -1- AC_SUBST([RTD_DLL_VERSION])
+m4trace:configure.in:343: -1- AC_SUBST([SCL_DLL_VERSION])
+m4trace:configure.in:347: -1- AC_SUBST([VBH_DLL_VERSION])
+m4trace:configure.in:351: -1- AC_SUBST([VBL_DLL_VERSION])
+m4trace:configure.in:355: -1- AC_SUBST([VPN_DLL_VERSION])
+m4trace:configure.in:359: -1- AC_SUBST([VPD_DLL_VERSION])
+m4trace:configure.in:363: -1- AC_SUBST([VVH_DLL_VERSION])
+m4trace:configure.in:367: -1- AC_SUBST([VTL_DLL_VERSION])
+m4trace:configure.in:371: -1- AC_SUBST([PAT_DLL_VERSION])
+m4trace:configure.in:375: -1- AC_SUBST([PPT_DLL_VERSION])
+m4trace:configure.in:379: -1- AC_SUBST([PHL_DLL_VERSION])
+m4trace:configure.in:383: -1- AC_SUBST([VRD_DLL_VERSION])
+m4trace:configure.in:387: -1- AC_SUBST([BEH_DLL_VERSION])
+m4trace:configure.in:391: -1- AC_SUBST([BHL_DLL_VERSION])
+m4trace:configure.in:395: -1- AC_SUBST([BVL_DLL_VERSION])
+m4trace:configure.in:399: -1- AC_SUBST([ALCBANNER_MAJOR_VERSION])
+m4trace:configure.in:401: -1- AC_SUBST([ALCBANNER_MINOR_VERSION])
+m4trace:configure.in:403: -1- AC_SUBST([ALCBANNER_VERSION])
+m4trace:configure.in:407: -1- AC_SUBST([CST_DLL_VERSION])
+m4trace:configure.in:409: -1- AC_SUBST([SCH_DLL_VERSION])
+m4trace:configure.in:413: -1- AC_SUBST([ATTILA_MAJOR_VERSION])
+m4trace:configure.in:415: -1- AC_SUBST([ATTILA_MINOR_VERSION])
+m4trace:configure.in:417: -1- AC_SUBST([ATTILA_VERSION])
+m4trace:configure.in:421: -1- AC_SUBST([B2F_MAJOR_VERSION])
+m4trace:configure.in:423: -1- AC_SUBST([B2F_MINOR_VERSION])
+m4trace:configure.in:425: -1- AC_SUBST([B2F_VERSION])
+m4trace:configure.in:429: -1- AC_SUBST([BOOG_MAJOR_VERSION])
+m4trace:configure.in:431: -1- AC_SUBST([BOOG_MINOR_VERSION])
+m4trace:configure.in:433: -1- AC_SUBST([BOOG_VERSION])
+m4trace:configure.in:437: -1- AC_SUBST([BOOM_MAJOR_VERSION])
+m4trace:configure.in:439: -1- AC_SUBST([BOOM_MINOR_VERSION])
+m4trace:configure.in:441: -1- AC_SUBST([BOOM_VERSION])
+m4trace:configure.in:449: -1- AC_SUBST([DOC_MAJOR_VERSION])
+m4trace:configure.in:451: -1- AC_SUBST([DOC_MINOR_VERSION])
+m4trace:configure.in:453: -1- AC_SUBST([DOC_VERSION])
+m4trace:configure.in:457: -1- AC_SUBST([DREAL_MAJOR_VERSION])
+m4trace:configure.in:459: -1- AC_SUBST([DREAL_MINOR_VERSION])
+m4trace:configure.in:461: -1- AC_SUBST([DREAL_VERSION])
+m4trace:configure.in:465: -1- AC_SUBST([EXP_MAJOR_VERSION])
+m4trace:configure.in:467: -1- AC_SUBST([EXP_MINOR_VERSION])
+m4trace:configure.in:469: -1- AC_SUBST([EXP_VERSION])
+m4trace:configure.in:473: -1- AC_SUBST([FLATBEH_MAJOR_VERSION])
+m4trace:configure.in:475: -1- AC_SUBST([FLATBEH_MINOR_VERSION])
+m4trace:configure.in:477: -1- AC_SUBST([FLATBEH_VERSION])
+m4trace:configure.in:485: -1- AC_SUBST([FMI_MAJOR_VERSION])
+m4trace:configure.in:487: -1- AC_SUBST([FMI_MINOR_VERSION])
+m4trace:configure.in:489: -1- AC_SUBST([FMI_VERSION])
+m4trace:configure.in:493: -1- AC_SUBST([FSP_MAJOR_VERSION])
+m4trace:configure.in:495: -1- AC_SUBST([FSP_MINOR_VERSION])
+m4trace:configure.in:497: -1- AC_SUBST([FSP_VERSION])
+m4trace:configure.in:501: -1- AC_SUBST([MGN_DLL_VERSION])
+m4trace:configure.in:505: -1- AC_SUBST([PGN_DLL_VERSION])
+m4trace:configure.in:509: -1- AC_SUBST([GRAAL_MAJOR_VERSION])
+m4trace:configure.in:511: -1- AC_SUBST([GRAAL_MINOR_VERSION])
+m4trace:configure.in:513: -1- AC_SUBST([GRAAL_VERSION])
+m4trace:configure.in:517: -1- AC_SUBST([K2F_MAJOR_VERSION])
+m4trace:configure.in:519: -1- AC_SUBST([K2F_MINOR_VERSION])
+m4trace:configure.in:521: -1- AC_SUBST([K2F_VERSION])
+m4trace:configure.in:525: -1- AC_SUBST([L2P_MAJOR_VERSION])
+m4trace:configure.in:527: -1- AC_SUBST([L2P_MINOR_VERSION])
+m4trace:configure.in:529: -1- AC_SUBST([L2P_VERSION])
+m4trace:configure.in:533: -1- AC_SUBST([LOON_MAJOR_VERSION])
+m4trace:configure.in:535: -1- AC_SUBST([LOON_MINOR_VERSION])
+m4trace:configure.in:537: -1- AC_SUBST([LOON_VERSION])
+m4trace:configure.in:541: -1- AC_SUBST([LVX_MAJOR_VERSION])
+m4trace:configure.in:543: -1- AC_SUBST([LVX_MINOR_VERSION])
+m4trace:configure.in:545: -1- AC_SUBST([LVX_VERSION])
+m4trace:configure.in:549: -1- AC_SUBST([LYNX_MAJOR_VERSION])
+m4trace:configure.in:551: -1- AC_SUBST([LYNX_MINOR_VERSION])
+m4trace:configure.in:553: -1- AC_SUBST([LYNX_VERSION])
+m4trace:configure.in:557: -1- AC_SUBST([M2E_MAJOR_VERSION])
+m4trace:configure.in:559: -1- AC_SUBST([M2E_MINOR_VERSION])
+m4trace:configure.in:561: -1- AC_SUBST([M2E_VERSION])
+m4trace:configure.in:565: -1- AC_SUBST([MIPS_ASM_MAJOR_VERSION])
+m4trace:configure.in:567: -1- AC_SUBST([MIPS_ASM_MINOR_VERSION])
+m4trace:configure.in:569: -1- AC_SUBST([MIPS_ASM_VERSION])
+m4trace:configure.in:573: -1- AC_SUBST([MOCHA_MAJOR_VERSION])
+m4trace:configure.in:575: -1- AC_SUBST([MOCHA_MINOR_VERSION])
+m4trace:configure.in:577: -1- AC_SUBST([MOCHA_VERSION])
+m4trace:configure.in:581: -1- AC_SUBST([NERO_MAJOR_VERSION])
+m4trace:configure.in:583: -1- AC_SUBST([NERO_MINOR_VERSION])
+m4trace:configure.in:585: -1- AC_SUBST([NERO_VERSION])
+m4trace:configure.in:589: -1- AC_SUBST([OCP_MAJOR_VERSION])
+m4trace:configure.in:591: -1- AC_SUBST([OCP_MINOR_VERSION])
+m4trace:configure.in:593: -1- AC_SUBST([OCP_VERSION])
+m4trace:configure.in:597: -1- AC_SUBST([OCR_MAJOR_VERSION])
+m4trace:configure.in:599: -1- AC_SUBST([OCR_MINOR_VERSION])
+m4trace:configure.in:601: -1- AC_SUBST([OCR_VERSION])
+m4trace:configure.in:605: -1- AC_SUBST([PAT2SPI_MAJOR_VERSION])
+m4trace:configure.in:607: -1- AC_SUBST([PAT2SPI_MINOR_VERSION])
+m4trace:configure.in:609: -1- AC_SUBST([PAT2SPI_VERSION])
+m4trace:configure.in:613: -1- AC_SUBST([PROOF_MAJOR_VERSION])
+m4trace:configure.in:615: -1- AC_SUBST([PROOF_MINOR_VERSION])
+m4trace:configure.in:617: -1- AC_SUBST([PROOF_VERSION])
+m4trace:configure.in:621: -1- AC_SUBST([RING_MAJOR_VERSION])
+m4trace:configure.in:623: -1- AC_SUBST([RING_MINOR_VERSION])
+m4trace:configure.in:625: -1- AC_SUBST([RING_VERSION])
+m4trace:configure.in:629: -1- AC_SUBST([S2R_MAJOR_VERSION])
+m4trace:configure.in:631: -1- AC_SUBST([S2R_MINOR_VERSION])
+m4trace:configure.in:633: -1- AC_SUBST([S2R_VERSION])
+m4trace:configure.in:637: -1- AC_SUBST([SCAPIN_MAJOR_VERSION])
+m4trace:configure.in:639: -1- AC_SUBST([SCAPIN_MINOR_VERSION])
+m4trace:configure.in:641: -1- AC_SUBST([SCAPIN_VERSION])
+m4trace:configure.in:645: -1- AC_SUBST([SEA_MAJOR_VERSION])
+m4trace:configure.in:647: -1- AC_SUBST([SEA_MINOR_VERSION])
+m4trace:configure.in:649: -1- AC_SUBST([SEA_VERSION])
+m4trace:configure.in:653: -1- AC_SUBST([SYF_MAJOR_VERSION])
+m4trace:configure.in:655: -1- AC_SUBST([SYF_MINOR_VERSION])
+m4trace:configure.in:657: -1- AC_SUBST([SYF_VERSION])
+m4trace:configure.in:661: -1- AC_SUBST([VASY_MAJOR_VERSION])
+m4trace:configure.in:663: -1- AC_SUBST([VASY_MINOR_VERSION])
+m4trace:configure.in:665: -1- AC_SUBST([VASY_VERSION])
+m4trace:configure.in:671: -1- AC_SUBST([XFSM_MAJOR_VERSION])
+m4trace:configure.in:673: -1- AC_SUBST([XFSM_MINOR_VERSION])
+m4trace:configure.in:675: -1- AC_SUBST([XFSM_VERSION])
+m4trace:configure.in:679: -1- AC_SUBST([XPAT_MAJOR_VERSION])
+m4trace:configure.in:681: -1- AC_SUBST([XPAT_MINOR_VERSION])
+m4trace:configure.in:683: -1- AC_SUBST([XPAT_VERSION])
+m4trace:configure.in:687: -1- AC_SUBST([XSCH_MAJOR_VERSION])
+m4trace:configure.in:689: -1- AC_SUBST([XSCH_MINOR_VERSION])
+m4trace:configure.in:691: -1- AC_SUBST([XSCH_VERSION])
+m4trace:configure.in:695: -1- AC_SUBST([XVPN_MAJOR_VERSION])
+m4trace:configure.in:697: -1- AC_SUBST([XVPN_MINOR_VERSION])
+m4trace:configure.in:699: -1- AC_SUBST([XVPN_VERSION])
+m4trace:configure.in:702: -1- AC_SUBST([TOOLSDIRS])
+m4trace:configure.in:980: -1- AC_CONFIG_FILES([
+Makefile
+distrib/alliance.spec
+distrib/etc/alc_env.sh
+distrib/etc/alc_env.csh
+mbk/Makefile
+mbk/man1/Makefile
+mbk/man3/Makefile
+mbk/man5/Makefile
+mbk/src/Makefile
+mbkal/Makefile
+mbkal/doc/Makefile
+mbkal/src/Makefile
+mbkap/Makefile
+mbkap/src/Makefile
+mbkedif/Makefile
+mbkedif/src/Makefile
+mbkhilo/Makefile
+mbkhilo/src/Makefile
+mbkmg/Makefile
+mbkmg/src/Makefile
+mbkspice/Makefile
+mbkspice/doc/Makefile
+mbkspice/etc/Makefile
+mbkspice/src/Makefile
+mbkvhdl/Makefile
+mbkvhdl/src/Makefile
+mbkvrlog/Makefile
+mbkvrlog/src/Makefile
+mbkvti/Makefile
+mbkvti/src/Makefile
+mbkvhdlg/Makefile
+mbkvhdlg/src/Makefile
+aut/Makefile
+aut/man1/Makefile
+aut/man3/Makefile
+aut/src/Makefile
+rds/Makefile
+rds/etc/Makefile
+rds/man3/Makefile
+rds/src/Makefile
+rdscif/Makefile
+rdscif/src/Makefile
+rdsgds/Makefile
+rdsgds/src/Makefile
+elp/Makefile
+elp/etc/Makefile
+elp/src/Makefile
+abl/Makefile
+abl/man1/Makefile
+abl/man3/Makefile
+abl/src/Makefile
+bdd/Makefile
+bdd/man1/Makefile
+bdd/man3/Makefile
+bdd/src/Makefile
+log/Makefile
+log/man1/Makefile
+log/man3/Makefile
+log/src/Makefile
+btr/Makefile
+btr/src/Makefile
+vex/Makefile
+vex/src/Makefile
+ctl/Makefile
+ctl/man5/Makefile
+ctl/src/Makefile
+ctp/Makefile
+ctp/src/Makefile
+abe/Makefile
+abe/src/Makefile
+abt/Makefile
+abt/src/Makefile
+abv/Makefile
+abv/src/Makefile
+fsm/Makefile
+fsm/man1/Makefile
+fsm/man5/Makefile
+fsm/src/Makefile
+fks/Makefile
+fks/src/Makefile
+fvh/Makefile
+fvh/src/Makefile
+ftl/Makefile
+ftl/src/Makefile
+rtn/Makefile
+rtn/src/Makefile
+rtd/Makefile
+rtd/src/Makefile
+scl/Makefile
+scl/src/Makefile
+vbh/Makefile
+vbh/src/Makefile
+vbl/Makefile
+vbl/src/Makefile
+vpn/Makefile
+vpn/src/Makefile
+vpd/Makefile
+vpd/src/Makefile
+vvh/Makefile
+vvh/src/Makefile
+vtl/Makefile
+vtl/src/Makefile
+pat/Makefile
+pat/doc/Makefile
+pat/src/Makefile
+ppt/Makefile
+ppt/src/Makefile
+phl/Makefile
+phl/src/Makefile
+druc/Makefile
+druc/man1/Makefile
+druc/src/Makefile
+beh/Makefile
+beh/man3/Makefile
+beh/src/Makefile
+bhl/Makefile
+bhl/src/Makefile
+bvl/Makefile
+bvl/src/Makefile
+alcban/Makefile
+alcban/man1/Makefile
+alcban/src/Makefile
+asimut/Makefile
+asimut/man1/Makefile
+asimut/src/Makefile
+attila/Makefile
+attila/doc/Makefile
+attila/doc/attila/Makefile
+attila/doc/man1/Makefile
+attila/etc/Makefile
+attila/src/Makefile
+b2f/Makefile
+b2f/src/Makefile
+boog/Makefile
+boog/doc/Makefile
+boog/src/Makefile
+boom/Makefile
+boom/man1/Makefile
+boom/src/Makefile
+cells/Makefile
+cells/doc/Makefile
+cells/src/Makefile
+cells/src/dp_sxlib/Makefile
+cells/src/padlib/Makefile
+cells/src/ramlib/Makefile
+cells/src/rf2lib/Makefile
+cells/src/rflib/Makefile
+cells/src/romlib/Makefile
+cells/src/sxlib/Makefile
+distrib/Makefile
+distrib/doc/Makefile
+distrib/etc/Makefile
+documentation/Makefile
+documentation/tutorials/Makefile
+dreal/Makefile
+dreal/etc/Makefile
+dreal/man1/Makefile
+dreal/src/Makefile
+exp/Makefile
+exp/doc/Makefile
+exp/src/Makefile
+flatbeh/Makefile
+flatbeh/doc/Makefile
+flatbeh/src/Makefile
+flatlo/Makefile
+flatlo/doc/Makefile
+flatlo/src/Makefile
+flatph/Makefile
+flatph/doc/Makefile
+flatph/src/Makefile
+fmi/Makefile
+fmi/man1/Makefile
+fmi/src/Makefile
+fsp/Makefile
+fsp/man1/Makefile
+fsp/src/Makefile
+genlib/Makefile
+genlib/doc/Makefile
+genlib/doc/genlib/Makefile
+genlib/man1/Makefile
+genlib/man3/Makefile
+genlib/src/Makefile
+genpat/Makefile
+genpat/doc/Makefile
+genpat/doc/man1/Makefile
+genpat/doc/man3/Makefile
+genpat/src/Makefile
+graal/Makefile
+graal/etc/Makefile
+graal/man1/Makefile
+graal/src/Makefile
+k2f/Makefile
+k2f/man1/Makefile
+k2f/src/Makefile
+l2p/Makefile
+l2p/man1/Makefile
+l2p/src/Makefile
+loon/Makefile
+loon/doc/Makefile
+loon/src/Makefile
+lvx/Makefile
+lvx/doc/Makefile
+lvx/src/Makefile
+lynx/Makefile
+lynx/man1/Makefile
+lynx/src/Makefile
+m2e/Makefile
+m2e/doc/Makefile
+m2e/doc/man1/Makefile
+m2e/src/Makefile
+mips_asm/Makefile
+mips_asm/src/Makefile
+mocha/Makefile
+mocha/man1/Makefile
+mocha/src/Makefile
+nero/Makefile
+nero/doc/Makefile
+nero/doc/man1/Makefile
+nero/doc/nero/Makefile
+nero/src/Makefile
+ocp/Makefile
+ocp/doc/Makefile
+ocp/src/Makefile
+ocp/src/common/Makefile
+ocp/src/placer/Makefile
+ocr/Makefile
+ocr/doc/Makefile
+ocr/src/Makefile
+ocr/src/include/Makefile
+ocr/src/rout/Makefile
+ocr/src/seg/Makefile
+ocr/src/util/Makefile
+pat2spi/Makefile
+pat2spi/man1/Makefile
+pat2spi/src/Makefile
+proof/Makefile
+proof/man1/Makefile
+proof/src/Makefile
+ring/Makefile
+ring/doc/Makefile
+ring/src/Makefile
+s2r/Makefile
+s2r/doc/Makefile
+s2r/src/Makefile
+scapin/Makefile
+scapin/etc/Makefile
+scapin/man1/Makefile
+scapin/src/Makefile
+sea/Makefile
+sea/etc/Makefile
+sea/src/Makefile
+syf/Makefile
+syf/man1/Makefile
+syf/src/Makefile
+vasy/Makefile
+vasy/man1/Makefile
+vasy/man5/Makefile
+vasy/src/Makefile
+x2y/Makefile
+x2y/doc/Makefile
+x2y/src/Makefile
+xfsm/Makefile
+xfsm/etc/Makefile
+xfsm/src/Makefile
+xpat/Makefile
+xpat/etc/Makefile
+xpat/man1/Makefile
+xpat/src/Makefile
+xsch/Makefile
+xsch/etc/Makefile
+xsch/man1/Makefile
+xsch/src/Makefile
+xvpn/Makefile
+xvpn/etc/Makefile
+xvpn/src/Makefile
+])

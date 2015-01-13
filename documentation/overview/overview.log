@@ -1,0 +1,153 @@
+This is TeX, Version 3.14159 (Web2C 7.3.1) (format=latex 2002.4.12)  9 SEP 2004 21:13
+**overview.tex
+(overview.tex
+LaTeX2e <2000/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, i
+talian, nohyphenation, loaded.
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2000/05/19 v1.4b Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size10.clo
+File: size10.clo 2000/05/19 v1.4b Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/latex/base/t1enc.sty
+Package: t1enc 1994/06/01 Standard LaTeX package
+)
+(/usr/share/texmf/tex/latex/misc/isolatin1.sty
+ISO-latin-1 input coding, version 0.9 of 1-Jun-1992.)
+(/usr/share/texmf/tex/latex/psnfss/palatino.sty
+Package: palatino 2000/01/12 PSNFSS-v8.1 Palatino font as default roman (SPQR) 
+
+)
+(/usr/share/texmf/tex/generic/misc/psfig.sty
+\@unused=\write3
+\ps@stream=\read1
+\p@intvaluex=\dimen103
+\p@intvaluey=\dimen104
+
+psfig/tex 1.10-dvips
+) (/usr/share/texmf/tex/latex/misc/here.sty) (overview.aux)
+\openout1 = `overview.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 25.
+
+(/usr/share/texmf/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2000/01/12 PSNFSS-v8.1 font definitions for T1/ppl.
+)
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 32.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 40.
+
+(/usr/share/texmf/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2000/01/12 PSNFSS-v8.1 font definitions for T1/pcr.
+)
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 50.
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 65.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 77.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 101.
+
+
+(/usr/share/texmf/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 101.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 110.
+ [1
+
+]
+Overfull \hbox (17.16391pt too wide) in paragraph at lines 167--172
+\T1/ppl/m/n/10 Unlike com-mer-cially avail-able CAD sys-tems, the \T1/ppl/b/n/1
+0 Al-liance \T1/ppl/m/n/10 CAD Frame-work suits the lim-ited ressources
+ []
+
+[2] [3] [4]
+psfig: searching tools.eps for bounding box
+psfig: including tools.eps 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 379.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 379.
+
+Overfull \hbox (1.64961pt too wide) in paragraph at lines 376--384
+\T1/ppl/m/n/10 1.5$\OML/cmm/m/it/10 ^^V$\T1/ppl/m/n/10 m, 1.2$\OML/cmm/m/it/10 
+^^V$\T1/ppl/m/n/10 m, 1.0$\OML/cmm/m/it/10 ^^V$\T1/ppl/m/n/10 m and 0.7$\OML/cm
+m/m/it/10 ^^V$\T1/ppl/m/n/10 m tech-nolo-gies, the AMS 1.2$\OML/cmm/m/it/10 ^^V
+$\T1/ppl/m/n/10 m tech-nol-ogy and SGS-Thomson 0.5$\OML/cmm/m/it/10 ^^V$\T1/ppl
+/m/n/10 m,
+ []
+
+[5] [6]
+psfig: searching graal.eps for bounding box
+psfig: including graal.eps 
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 648--649
+[]\T1/ppl/m/n/10 latch or flip-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 649--649
+[]\T1/ppl/m/n/10 low
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 680--682
+[]\T1/ppl/m/n/10 0 to min($[]$,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 709--711
+[]\T1/ppl/m/n/10 64, 128, 256,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--725
+[]\T1/ppl/m/n/10 narrow,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--725
+\T1/ppl/m/n/10 medium or
+ []
+
+[9] [10]
+psfig: searching stacs.eps for bounding box
+psfig: including stacs.eps 
+[11] [12] (overview.aux) ) 
+Here is how much of TeX's memory you used:
+ 615 strings out of 20887
+ 6812 string characters out of 196274
+ 56926 words of memory out of 350001
+ 3601 multiletter control sequences out of 10000+15000
+ 12555 words of font info for 26 fonts, out of 400000 for 1000
+ 14 hyphenation exceptions out of 10000
+ 23i,10n,17p,175b,413s stack positions out of 3000i,100n,1500p,50000b,4000s
+
+Output written on overview.dvi (12 pages, 44920 bytes).
