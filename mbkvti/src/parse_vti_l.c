@@ -966,7 +966,7 @@ losig_list      *sigct1,*sigct2;
 										break;
 								}
 								if( !scan_sigalias ) {
-									(chain_list*)(scan_head_sigalias->DATA) = addchain( (chain_list*)(scan_head_sigalias->DATA), sig2);
+									scan_head_sigalias->DATA = (void *) addchain( (chain_list*)(scan_head_sigalias->DATA), sig2);
 								}
 							}
 						}
@@ -1235,7 +1235,7 @@ int	index;
 		scanx->NEXT = headx;
 		scanx->rcn  = 0;
 		headx       = scanx;
-		(struct hns_X*)(ptl->DATA) = headx;
+		ptl->DATA   = (void *) headx;
 	}
 
 	return(scanx);
@@ -1268,7 +1268,7 @@ loins_list		*ptins;
 		scani->ins  = ptins;
 		scani->rcn  = 0;
 		headi       = scani;
-		(struct hns_I*)(ptl->DATA) = headi;
+		ptl->DATA   = (void *) headi;
 	}
 
 	return(scani);
